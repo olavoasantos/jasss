@@ -1,0 +1,15 @@
+{
+  "name": "jasss",
+  "version": "0.0.1",
+  "description": "Just another style sheet syntax (jasss) language built to have fun.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olavo Amorim Santos",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "collect.js": "^3.0.49"
+  }
+}
