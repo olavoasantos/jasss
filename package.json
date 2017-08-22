@@ -2,14 +2,25 @@
   "name": "jasss",
   "version": "0.0.1",
   "description": "Just another style sheet syntax (jasss) language built to have fun.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Olavo Amorim Santos",
+    "email": "olavo.a.santos@gmail.com",
   },
-  "author": "Olavo Amorim Santos",
+  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "app-root-path": "^2.0.1",
     "collect.js": "^3.0.49"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olavoasantos/jasss.git"
+  },
+  "keywords": [
+    "jasss"
+  ],
+  "bugs": {
+    "url": "https://github.com/olavoasantos/jasss/issues"
+  },
+  "homepage": "https://github.com/olavoasantos/jasss#readme"
 }
