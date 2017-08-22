@@ -1,6 +1,6 @@
 {
   "name": "jasss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Just another style sheet syntax (jasss) language created to have fun.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/olavoasantos/jasss/issues"
   },
-  "homepage": "https://github.com/olavoasantos/jasss#readme"
+  "homepage": "https://github.com/olavoasantos/jasss#readme",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "collect.js": "^3.0.49"
+  }
 }
