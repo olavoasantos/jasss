@@ -1,6 +1,6 @@
 {
   "name": "jasss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Just another style sheet syntax (jasss) language created to have fun.",
   "main": "index.js",
   "scripts": {

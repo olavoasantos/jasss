@@ -5,18 +5,22 @@ let Interpreter = require('./Interpreter');
 
 class JaSSS {
 
-    static compile(content) {
+    static compile(content, output) {
         let lines = Normalizer.normalize(content);
         let interpreter = new Interpreter(lines);
         interpreter.read();
 
-        return (new Compiler(interpreter.global)).run();
+        let compiled = (new Compiler(interpreter.global)).run();
+
+        if(output) File.make(output, compiled);
+
+        return compiled;
     }
 
-    static compileFile(path) {
+    static compileFile(path, output) {
         let content = File.get(path);
 
-        return this.compile(content);
+        return this.compile(content, output);
     }
 
 }

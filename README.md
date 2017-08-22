@@ -25,7 +25,7 @@ Jasss was created as a fun little experiment as I attempted to implement the bas
 ```js
     let jasss = require("jasss");
 
-    let compiled = jasss.compileFile("./app.jasss");
+    jasss.compileFile("./app.jasss", "./output.css");
 ```
 
 This is a __VERY__ preliminary version. Compiling though the command line will soon be implemented.

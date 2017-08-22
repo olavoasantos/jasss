@@ -1,6 +1,6 @@
 class CssCompiler {
     static compile(elements) {
-        let css = "/** JaSSS v0.0.1 **/\n";
+        let css = "";
         elements.each(element => {
             css += `\n${element.selector} {\n`;
             element.properties.each(prop => {
