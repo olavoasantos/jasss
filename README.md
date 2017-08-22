@@ -1,5 +1,20 @@
 # Just Another Style Sheet Syntax (jasss)
-Just Another Style Sheet Syntax created to have fun.
+Just Another Style Sheet Syntax (jasss) language created to have fun.
+
+## About
+Jasss was created as a fun little experiment as I attempted to implement the basic features of other style sheet syntax (i.e. variables, file import). On top of that, I tried implementing the notion of abstract classes and inheritance.
+
+## TOC
++ [Installation](#installation)
++ [Basic Usage](#basic-usage)
++ [Features](#features)
+    * [File import](#file-import)
+    * [Variables](#variables)
+    * [Scopes](#scopes)
+    * [Nested Classes](#nested-classes)
+    * [Abstract Classes](#abstract-classes)
+    * [Extending Classes](#extending-classes)
++ [Author](#author)
 
 ## Installation
 ```
@@ -76,7 +91,8 @@ Jasss implements scopes, using a global scope and private scopes for elements. P
         background-color: yellow;
     }
 ```
-### Nested classes
+
+### Nested Classes
 Nested classes can inherit the parent selector by using `&` character.
 
 #### Example
@@ -100,7 +116,7 @@ Nested classes can inherit the parent selector by using `&` character.
     }
 ```
 
-### Abstract class
+### Abstract Classes
 Abstract classes serve as basic structure for other classes to implement. Everything contained in these classes will be inherited by the class which implents (including nested elements). This helps make the code more maintainable and to avoid repetition. These classes will not be included in the final output.
 
 #### Usage
@@ -164,7 +180,7 @@ Abstract classes serve as basic structure for other classes to implement. Everyt
     }
 ```
 
-### Extending classes
+### Extending Classes
 Class can extend other classes. By doing so, they inherit the class' properties and variables, but not their nested elements.
 
 #### Usage
@@ -197,3 +213,6 @@ Class can extend other classes. By doing so, they inherit the class' properties 
         font-weight: bold;
     }
 ```
+
+## Author
++ [Olavo Amorim Santos](https://github.com/olavoasantos)
