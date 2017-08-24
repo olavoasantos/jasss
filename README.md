@@ -18,7 +18,7 @@ Jasss was created as a fun little experiment as I attempted to implement the bas
 
 ## Installation
 ```
-    npm install jasss
+    npm install jasss -g
 ```
 
 ## Basic Usage

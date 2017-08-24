@@ -8,7 +8,7 @@ class Handler {
 
     help() {
         console.log(`\n${this.config._long_name} (${this.config.name})`);
-        console.log(`by ${this.config.author} - v${this.config.version}\n`);
+        console.log(`by Olavo Amorim Santos - v${this.config.version}\n`);
         console.log(this.makeUsage());
         console.log(this.makeDescription());
     }
