@@ -37,11 +37,15 @@ class File {
     }
 
     static pathTo(file) {
-        return path.join(appRoot.path, file);
+        return path.join(process.cwd(), file);
     }
 
     static pathToCore(file) {
         return path.join(__dirname, file);
+    }
+
+    execPath() {
+        return process.cwd();
     }
 
 }
