@@ -22,13 +22,30 @@ Jasss was created as a fun little experiment as I attempted to implement the bas
 ```
 
 ## Basic Usage
+#### Command line
+Through the command line:
+```
+    jass -i <input> -o <output>
+
+    Where:
+      <input>:      Required | Path to jasss file
+      <output>:     Optional | Path to output the compiled CSS file (defaults to: {<input>}.css)
+```
+
++ __Input file:__
+    + required: The input file is required.
+    + type: The input file must be a `*.jasss` file.
+
++ __Output file:__
+    + The `-o` argument is *optional*. If not set, a CSS file with the same name as the input file will be created in the same directory.
+
+#### Manual
+To do it manually:
 ```js
     let jasss = require("jasss");
 
     jasss.compileFile("./app.jasss", "./output.css");
 ```
-
-This is a __VERY__ preliminary version. Compiling though the command line will soon be implemented.
 
 ## Features
 ### File import
