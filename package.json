@@ -1,10 +1,14 @@
 {
   "name": "jasss",
   "version": "0.0.3",
+  "_long_name": "Just another style sheet syntax",
   "description": "Just another style sheet syntax (jasss) language created to have fun.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jasss": "bin/jasss.js"
   },
   "repository": {
     "type": "git",
